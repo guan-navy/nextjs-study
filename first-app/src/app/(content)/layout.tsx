@@ -1,5 +1,6 @@
 import MainHeader from "@/src/components/main-header";
 import "../globals.css";
+import React from "react";
 
 export const metadata = {
   title: "Next.js Page Routing & Rendering",

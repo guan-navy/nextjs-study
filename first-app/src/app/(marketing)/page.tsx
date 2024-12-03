@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import logo from '@/src/app/assets/logo.jpg'
+import logo from '@/src/assets/logo.jpg'
 import Link from 'next/link';
 
 export default function HomePage() {

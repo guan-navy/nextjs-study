@@ -3,8 +3,7 @@ const fs = require('node:fs/promises');
 async function getStoredPosts() {
   const rawFileContent = await fs.readFile('posts.json', { encoding: 'utf-8' });
   const data = JSON.parse(rawFileContent);
-  const storedPosts = data.posts ?? [];
-  return storedPosts;
+  return data.posts ?? [];
 }
 
 function storePosts(posts) {
